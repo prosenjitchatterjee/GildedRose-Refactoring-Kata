@@ -15,7 +15,7 @@ class GildedRoseTest {
         Item[] items = new Item[] { new Item("foo", 0, 0) };
         GildedRoseImpl app = new GildedRoseImpl(items);
         app.updateQuality();
-        assertNotEquals("fixme", app.items[0].name);
+        assertEquals("fixme", app.items[0].name);
     }
 
 }
