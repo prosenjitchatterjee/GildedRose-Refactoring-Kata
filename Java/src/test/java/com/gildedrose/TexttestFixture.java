@@ -1,7 +1,7 @@
 package com.gildedrose;
 
 import com.gildedrose.model.Item;
-import com.gildedroseservice.impl.GildedRoseImpl;
+import com.gildedrose.service.impl.GildedRoseImpl;
 
 public class TexttestFixture {
     public static void main(String[] args) {

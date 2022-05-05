@@ -1,4 +1,4 @@
-package com.gildedroseservice.impl;
+package com.gildedrose.service.impl;
 
 import com.gildedrose.model.Item;
 import com.gildedrose.service.GildedRose;

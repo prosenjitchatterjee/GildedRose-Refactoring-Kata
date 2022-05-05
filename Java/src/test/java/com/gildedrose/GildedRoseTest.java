@@ -3,7 +3,7 @@ package com.gildedrose;
 import org.junit.jupiter.api.Test;
 
 import com.gildedrose.model.Item;
-import com.gildedroseservice.impl.GildedRoseImpl;
+import com.gildedrose.service.impl.GildedRoseImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
