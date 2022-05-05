@@ -17,7 +17,8 @@ public class GildedRoseImpl implements GildedRose{
             if (!items[i].name.equals(Constants.AGED_BRIE)
                     && !items[i].name.equals(Constants.BACKSTAGE_TAFKAL80ETC)
                     && items[i].quality > 0
-                    && !items[i].name.equals(Constants.SULFURAS_HAND_OF_RAGNAROS)) /*{
+                    && !items[i].name.equals(Constants.SULFURAS_HAND_OF_RAGNAROS)
+                    && !items[i].name.equals(Constants.CONJURED)) /*{
                 if (items[i].quality > 0) {
                     if (!items[i].name.equals(Constants.SULFURAS_HAND_OF_RAGNAROS))*/ 
             		{
