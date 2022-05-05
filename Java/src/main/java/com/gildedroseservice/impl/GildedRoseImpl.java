@@ -1,12 +1,16 @@
-package com.gildedrose;
+package com.gildedroseservice.impl;
 
-class GildedRose {
-    Item[] items;
+import com.gildedrose.model.Item;
+import com.gildedrose.service.GildedRose;
 
-    public GildedRose(Item[] items) {
+public class GildedRoseImpl implements GildedRose{
+    public Item[] items;
+
+    public GildedRoseImpl(Item[] items) {
         this.items = items;
     }
 
+    @Override
     public void updateQuality() {
         for (int i = 0; i < items.length; i++) {
             if (!items[i].name.equals("Aged Brie")
