@@ -20,13 +20,12 @@ public class GildedRoseImpl implements GildedRose{
                     if (!items[i].name.equals(Constants.SULFURAS_HAND_OF_RAGNAROS) ) {
 
                     	if( !items[i].name.equals(Constants.CONJURED)) {
-                    		items[i].quality = items[i].quality - 1;
+                    		items[i].quality--;
                     	}
                     	else{ 
                     		//for CONJURED
                     		if(items[i].quality > 1)
-                    			items[i].quality = items[i].quality - 2;
-
+                    			items[i].quality-=2;
                     	}
                     }
                 }
@@ -37,13 +36,13 @@ public class GildedRoseImpl implements GildedRose{
                     if (items[i].name.equals(Constants.BACKSTAGE_TAFKAL80ETC)) {
                         if (items[i].sellIn < 11) {
                             if (items[i].quality < 50) {
-                                items[i].quality = items[i].quality + 1;
+                                items[i].quality++;
                             }
                         }
 
                         if (items[i].sellIn < 6) {
                             if (items[i].quality < 50) {
-                                items[i].quality = items[i].quality + 1;
+                                items[i].quality++;
                             }
                         }
                     }
@@ -51,7 +50,7 @@ public class GildedRoseImpl implements GildedRose{
             }
 
             if (!items[i].name.equals(Constants.SULFURAS_HAND_OF_RAGNAROS)) {
-                items[i].sellIn = items[i].sellIn - 1;
+                items[i].sellIn--;
             }
 
             if (items[i].sellIn < 0) {
@@ -61,12 +60,12 @@ public class GildedRoseImpl implements GildedRose{
                             if (!items[i].name.equals(Constants.SULFURAS_HAND_OF_RAGNAROS)) {
                             	
                             	if( !items[i].name.equals(Constants.CONJURED)) {
-                            		items[i].quality = items[i].quality - 1;
+                            		items[i].quality--;
                             	}
                             	else{ 
                             		//for CONJURED
                             		if(items[i].quality > 1)
-                            			items[i].quality = items[i].quality - 2;
+                            			items[i].quality-=2;
                             	}
                             }
                         }
@@ -75,7 +74,7 @@ public class GildedRoseImpl implements GildedRose{
                     }
                 } else {
                     if (items[i].quality < 50) {
-                        items[i].quality = items[i].quality + 1;
+                        items[i].quality++;
                     }
                 }
             }
