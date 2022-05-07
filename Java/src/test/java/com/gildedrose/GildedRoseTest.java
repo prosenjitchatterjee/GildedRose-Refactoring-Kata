@@ -12,7 +12,7 @@ class GildedRoseTest {
 
     @Test
     void foo() {
-        Item[] items = new Item[] { new Item("foo", 0, 0) };
+        Item[] items = new Item[] { new Item("Conjured Mana Cake", 0, 4) };
         GildedRoseImpl app = new GildedRoseImpl(items);
         app.updateQuality();
         assertNotEquals("fixme", app.items[0].name);
