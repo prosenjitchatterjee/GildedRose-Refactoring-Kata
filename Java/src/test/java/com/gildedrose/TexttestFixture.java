@@ -1,6 +1,5 @@
 package com.gildedrose;
 
-import com.gildedrose.model.Item;
 import com.gildedrose.service.impl.GildedRoseImpl;
 
 public class TexttestFixture {

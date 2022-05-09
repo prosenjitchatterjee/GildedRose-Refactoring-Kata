@@ -1,12 +1,10 @@
 package com.gildedrose;
 
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+
 import org.junit.jupiter.api.Test;
 
-import com.gildedrose.model.Item;
 import com.gildedrose.service.impl.GildedRoseImpl;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 class GildedRoseTest {
 
